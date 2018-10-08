@@ -3,6 +3,7 @@ package Card_Civilization.Cards.types;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
@@ -13,11 +14,7 @@ public abstract class Card {
 	private Rarity rarity;
 	private String name;
 	private String text;
-	private BufferedImage image;
-	
-	Card(){
-		image = ImageIO.read(new File());
-	}
+	protected BufferedImage image;
 	
 	public Rarity getRarity() {
 		return rarity;
