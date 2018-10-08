@@ -25,4 +25,7 @@ public abstract class Card {
 	public String getText() {
 		return text;
 	}
+	public BufferedImage getImage() {
+		return image;
+	}
 }
