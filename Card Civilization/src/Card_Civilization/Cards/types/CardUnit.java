@@ -31,4 +31,9 @@ public class CardUnit extends Card{
 	public int getCoverBonus() {
 		return coverbonus;
 	}
+
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
 }

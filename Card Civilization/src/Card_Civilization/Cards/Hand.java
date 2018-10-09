@@ -12,4 +12,7 @@ public class Hand {
 		this.player = player;
 		size = 0;
 	}
+	public void playCard(int i) {
+		cards[i].play();
+	}
 }

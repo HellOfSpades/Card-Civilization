@@ -28,4 +28,6 @@ public abstract class Card {
 	public BufferedImage getImage() {
 		return image;
 	}
+	
+	public abstract void play();
 }

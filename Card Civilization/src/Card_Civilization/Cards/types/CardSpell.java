@@ -2,7 +2,12 @@ package Card_Civilization.Cards.types;
 
 import Card_Civilization.Cards.Categories.Rarity;
 
-public abstract class CardSpell extends Card{
+public class CardSpell extends Card{
+
+	public void play() {
+		
+		
+	}
 	
 	
 }

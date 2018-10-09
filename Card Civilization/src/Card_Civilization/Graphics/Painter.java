@@ -18,7 +18,6 @@ public class Painter extends JPanel{
 	}
 	
 	public void paintComponent(Graphics g) {
-		System.out.println("painter");
 		Graphics2D g2 =	(Graphics2D)  g;
 		
 		

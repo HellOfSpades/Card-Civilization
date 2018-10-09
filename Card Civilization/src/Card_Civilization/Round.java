@@ -12,10 +12,8 @@ public class Round {
 		this.players = players;
 		this.map = map;
 		this.window = new Window(Standards.XWINDOWPOSITION,Standards.YWINDOWPOSITION,Standards.WINDOWWIDTH,Standards.WINDOWHEIGHT, this);
-		
-		
 	}
-	public Player getPlayer(int i) {
+	public Player getPlayers(int i) {
 		return players[i];
 	}
 }

@@ -11,8 +11,6 @@ public class Window extends JFrame{
 	
 	public Window(int x, int y, int width, int height, Round round){
 		
-		System.out.println("Window");
-		
 		setExtendedState(JFrame.MAXIMIZED_BOTH); 
 		setUndecorated(true);	
 		
